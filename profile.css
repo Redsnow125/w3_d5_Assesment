@@ -1,0 +1,95 @@
+body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  nav {
+      border-bottom: 2px solid orange;
+  }
+  
+  ol {
+      padding-left: 0;
+  }
+  
+  .crumb {
+      margin-right: 2em;
+      display: inline;
+  }
+  
+  a {
+      color: orange;
+  }
+  
+  a:visited {
+      color: crimson;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+  .niceList{
+    background-color: rgba(204, 127, 255, 0.425);
+    height: 30px;
+    width: 100px;
+    border-radius: 20%;
+  }
+  #skills{
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #ulSkills{
+   display: flex;
+   flex-direction: column;
+    gap: 10px;
+  }
+  #skillPic{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 15%;
+  }
+  .codeImg{
+    background: url('code.jpg');
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .btnChange{
+    background-color: yellow;
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10%;
+  }
+  .btnMouse{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+  }
+
+
+  
