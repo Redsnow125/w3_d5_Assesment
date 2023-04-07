@@ -4,6 +4,7 @@ let placeBtn = document.querySelector('#place')
 let ritualBtn = document.querySelector('#ritual')
 let skillsList = document.querySelector('ulSkills')
 let careerList = document.querySelector('#career-list')
+let skillPic = document.querySelector('#skillPic')
 
 const addCareer = evt =>{
     evt.preventDefault()
@@ -47,19 +48,24 @@ ritualBtn.addEventListener('mouseout',mouse)
 
 
 const code = evt =>{
-    evt.target.classList.toggle('codeimg')
+    skillPic.classList.toggle('codeImg')
 }
 const auto = evt =>{
-    alert('My favorite place is lake tahoe')
+    skillPic.classList.toggle('autoImg')
 }
 const build = evt =>{
-    alert('My favorite ritual is index swearing with my wife')
+    skillPic.classList.toggle('buildImg')
 }
 const demo = evt =>{
-    alert('My favorite ritual is index swearing with my wife')
+    skillPic.classList.toggle('demoImg')
 }
-colorBtn.addEventListener('click',color)
-placeBtn.addEventListener('click',place)
-ritualBtn.addEventListener('click',ritual)
+
 
 document.querySelector('#code').addEventListener('mouseover',code)
+document.querySelector('#code').addEventListener('mouseout',code)
+document.querySelector('#auto').addEventListener('mouseover',auto)
+document.querySelector('#auto').addEventListener('mouseout',auto)
+document.querySelector('#build').addEventListener('mouseover',build)
+document.querySelector('#build').addEventListener('mouseout',build)
+document.querySelector('#demo').addEventListener('mouseover',demo)
+document.querySelector('#demo').addEventListener('mouseout',demo)

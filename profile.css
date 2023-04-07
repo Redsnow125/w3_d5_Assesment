@@ -39,7 +39,7 @@ body {
   }
   #skills{
     width: 150px;
-    height: 250px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -57,13 +57,22 @@ body {
     gap: 10px;
   }
   #skillPic{
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     margin-left: 10px;
     border-radius: 15%;
   }
   .codeImg{
     background: url('code.jpg');
+  }
+  .autoImg{
+    background: url('auto.jpg');
+  }
+  .buildImg{
+    background: url('build.jpg');
+  }
+  .demoImg{
+    background: url('demo.jpg');
   }
   
 
