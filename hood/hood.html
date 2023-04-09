@@ -3,23 +3,34 @@
 <head>
 	<title>Homepage</title>
 	<link href="../home/styles.css" rel="stylesheet">
+	<link href="./hood.css" rel="stylesheet">
 
 </head>
-<body>
-	<nav>
-		<ol>
-			<li class="crumb"><a href="../home/home.html"><< Back </a></li>
-			<li class="crumb"><a href="../home/home.html">Home</a></li>
-			<li class="crumb"><a href="../profile/profile.html">Profile</a></li>
-			<li class="crumb"><a href="../hood/hood.html">Neighborhood</a></li>
-			<li class="crumb"><a href="../about/about.html">About</a></li>
-	    </ol>
-	</nav>
-    <h1>South Salt Lake City</h1>
+	<body>
+		<header>
+			<nav>
+				<ol>
+					<li class="crumb"><a href="../home/home.html"><< Back </a></li>
+					<li class="crumb"><a href="../home/home.html">Home</a></li>
+					<li class="crumb"><a href="../profile/profile.html">Profile</a></li>
+					<li class="crumb"><a href="../hood/hood.html">Neighborhood</a></li>
+					<li class="crumb"><a href="../about/about.html">About</a></li>
+				</ol>
+			</nav>
+		</header>
+		<h1>South Salt Lake City</h1>
+		<main>
+			<aside id = "poi"></aside>
+			<aside id = "poiMap"></aside>
 
-
-
-
-
-</body>
+		</main>
+		<footer>
+			<h2 id = "randBtn"><button class="btnChange btnMouse">Random Resterant</button></h2>
+			<div id = "randRestDiv">
+				<aside id = "desc"></aside>
+				<aside id = "randRestMap"></aside>
+			</div>
+		</footer>
+		<script src="./hood.js"></script>
+	</body>
 </html>

@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: aqua;
+    height: 350px;
+    display: flex;
+
+}
+#poi{
+    width: 160px;
+    background-color: blue;
+}
+#poiMap{
+    width: calc(100vw - 160px);
+    background-color: black;
+}
+footer{
+    background-color: rgb(65, 128, 128);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#randBtn{
+    width: 500px;
+    height: 50px;
+}
+#randRestDiv{
+    background-color: coral;
+    height: 500px;
+    display: flex;
+
+}
+#desc{
+    width: 300px;
+    background-color: brown;
+}
+#randRestMap{
+    background-color: blueviolet;
+    width: calc(100vw - 300px);
+}
+
+
+.btnChange{
+    background-color: yellow;
+    border: none;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10%;
+  }
+.btnMouse{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;  
+}
