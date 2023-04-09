@@ -32,10 +32,10 @@ body {
     flex-direction: column;
   }
   .niceList{
-    background-color: rgba(204, 127, 255, 0.425);
-    height: 30px;
-    width: 100px;
-    border-radius: 20%;
+    background-color: rgba(109, 109, 109, 0.425);
+    height: 90px;
+    width: 90px;
+    border-radius: 35%;
   }
   #skills{
     width: 150px;
@@ -57,22 +57,30 @@ body {
     gap: 10px;
   }
   #skillPic{
+    background-color: rgba(255, 255, 255, 0.726);
     width: 500px;
     height: 500px;
     margin-left: 10px;
     border-radius: 15%;
   }
   .codeImg{
-    background: url('code.jpg');
+    background: url('../pic/code.jpg');
+    width: 500px;
+    height: 500px;
   }
   .autoImg{
-    background: url('auto.jpg');
+    background: url('../pic/auto.jpg');
+    
   }
   .buildImg{
-    background: url('build.jpg');
+    background: url('../pic/build.jpg');
+    width: 500px;
+    height: 500px;
   }
   .demoImg{
-    background: url('demo.jpg');
+    background: url('../pic/demo.jpg');
+    width: 500px;
+    height: 500px;
   }
   
 
